@@ -8,7 +8,9 @@ find vendor/interfaces -type d -name '[0-9].[0-9]' |while read intf;do
 		hidl-gen \
 			-r android.hardware:hardware/interfaces \
 			-r vendor:vendor/interfaces/vendor \
+			-r motorola:vendor/interfaces/motorola \
 			-L "$target" \
 			$full
 	done
 done
+

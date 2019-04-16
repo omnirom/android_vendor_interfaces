@@ -3,5 +3,5 @@ hidl_package_root {
     path: "vendor/interfaces/vendor",
 }
 
-subdirs = [ "vendor" ]
+subdirs = [ "vendor", "motorola" ]
 

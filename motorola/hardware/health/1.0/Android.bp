@@ -18,8 +18,3 @@ hidl_interface {
     gen_java_constants: true,
 }
 
-hidl_package_root {
-    name: "motorola",
-    path: "vendor/interfaces/motorola",
-}
-
